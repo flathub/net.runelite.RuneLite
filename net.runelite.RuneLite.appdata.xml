@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2019 Steven vanZyl -->
 <component type="desktop">
     <id>net.runelite.RuneLite.desktop</id>
     <name>RuneLite</name>
@@ -9,17 +10,20 @@
     <url type="homepage">https://runelite.net</url>
 
     <description>
-        <p>RuneLite is a free, open source OldSchool RuneScape client.</p>
+        <p>RuneLite is a free, open-source and super fast client for Old School RuneScape</p>
     </description>
 
     <screenshots>
         <screenshot type="default">https://i.imgur.com/oaQEtYw.png</screenshot>
+	<screenshot>https://runelite.net/img/carousel/1.png</screenshot>
+	<screenshot>https://runelite.net/img/carousel/2.png</screenshot>
+	<screenshot>https://runelite.net/img/carousel/3.png</screenshot>
     </screenshots>
 
     <releases>
-        <release version="2.0.0" date="2019-7-23"></release>
+        <release version="2.0.0" date="2019-8-15"></release>
     </releases>
-    <update_contact>rushsteve1_at_teknik.io</update_contact>
+    <update_contact>rushsteve1_at_rushsteve1.us</update_contact>
 
     <content_rating type="oars-1.0">
         <content_attribute id="violence-cartoon">moderate</content_attribute>
