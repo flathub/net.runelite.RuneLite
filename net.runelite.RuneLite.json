@@ -44,7 +44,7 @@
                     "type": "script",
                     "dest-filename": "runelite",
                     "commands": [
-                        "exec $JAVA_HOME/bin/java -jar /app/share/RuneLite.jar"
+                        "exec $JAVA_HOME/bin/java -Djdk.tls.client.protocols=TLSv1.2 -jar /app/share/RuneLite.jar"
                     ]
                 },
                 {
