@@ -6,24 +6,27 @@
     "command": "runelite",
     "separate-locales": false,
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.openjdk10" 
+        "org.freedesktop.Sdk.Extension.openjdk11" 
     ],
     "finish-args": [
         "--share=ipc",
         "--share=network",
         "--socket=x11",
         "--socket=wayland",
+        "--device=dri",
         "--socket=pulseaudio",
         "--env=JAVA_HOME=/app/jre",
         "--persist=.runelite",
-        "--persist=jagexcache"
+        "--persist=jagexcache",
+        "--persist=random.dat",
+        "--persist=jagex_cl_oldschool_LIVE.dat"
     ],
     "modules": [
         {
             "name": "openjdk",
             "buildsystem": "simple",
             "build-commands": [
-                "/usr/lib/sdk/openjdk10/install.sh"
+                "/usr/lib/sdk/openjdk11/install.sh"
             ]
         },
         {
@@ -46,8 +49,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://github.com/runelite/launcher/releases/download/1.6.1/RuneLite.jar",
-                    "sha256": "aae08967e851d6599ccd60ec93fe7b5db94d8353da6b91df39d6b807dd6f0662"
+                    "url": "https://github.com/runelite/launcher/releases/download/2.0.0/RuneLite.jar",
+                    "sha256": "7c6790f3490fbf318682265e98bdb7d0f554faf3af7afb5cb97bbe37c8431d60"
                 },
                 {
                     "type": "file",
