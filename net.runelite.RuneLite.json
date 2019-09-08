@@ -12,11 +12,11 @@
         "--share=ipc",
         "--share=network",
         "--socket=x11",
-        "--socket=wayland",
         "--device=dri",
         "--socket=pulseaudio",
         "--env=JAVA_HOME=/app/jre",
-        "--persist=.runelite",
+        "--talk-name=org.freedesktop.Notifications",
+        "--filesystem=~/.runelite:create",
         "--persist=jagexcache",
         "--persist=random.dat",
         "--persist=jagex_cl_oldschool_LIVE.dat"
@@ -27,6 +27,25 @@
             "buildsystem": "simple",
             "build-commands": [
                 "/usr/lib/sdk/openjdk11/install.sh"
+            ]
+        },
+        {
+            "name": "libnotify",
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://gitlab.gnome.org/GNOME/libnotify/-/archive/0.7.8/libnotify-0.7.8.tar.gz",
+                    "sha256": "b031817b4ab0f381b5b26355de1480cc873bcb3d320fe2dc11d05b6e0f825c28"
+                }
+            ],
+            "cleanup": [
+                "/include",
+                "/lib/pkgconfig",
+                "/lib/debug",
+                "/lib/girepository-1.0",
+                "/share/gtk-doc",
+                "/share/gir-1.0"
             ]
         },
         {
