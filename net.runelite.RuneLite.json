@@ -1,7 +1,7 @@
 {
     "id": "net.runelite.RuneLite",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "18.08",
+    "runtime-version": "19.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "runelite",
     "separate-locales": false,
