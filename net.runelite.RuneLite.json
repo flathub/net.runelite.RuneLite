@@ -68,8 +68,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://github.com/runelite/launcher/releases/download/2.0.0/RuneLite.jar",
-                    "sha256": "7c6790f3490fbf318682265e98bdb7d0f554faf3af7afb5cb97bbe37c8431d60"
+                    "url": "https://github.com/runelite/launcher/releases/download/2.1.0/RuneLite.jar",
+                    "sha256": "9f5e072966a616893cc15ce1da972a46b1862c80f248668f741e07f5379440ef"
                 },
                 {
                     "type": "file",
