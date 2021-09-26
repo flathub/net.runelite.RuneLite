@@ -15,13 +15,13 @@
 
     <screenshots>
         <screenshot type="default">https://i.imgur.com/oaQEtYw.png</screenshot>
-	<screenshot>https://runelite.net/img/carousel/1.png</screenshot>
-	<screenshot>https://runelite.net/img/carousel/2.png</screenshot>
-	<screenshot>https://runelite.net/img/carousel/3.png</screenshot>
+	    <screenshot>https://runelite.net/img/carousel/1.png</screenshot>
+	    <screenshot>https://runelite.net/img/carousel/2.png</screenshot>
+	    <screenshot>https://runelite.net/img/carousel/3.png</screenshot>
     </screenshots>
 
     <releases>
-        <release version="2.1.5" date="2020-11-10"></release>
+        <release version="2.2.0" date="2021-09-25"></release>
     </releases>
     <update_contact>rushsteve1_at_rushsteve1.us</update_contact>
 
