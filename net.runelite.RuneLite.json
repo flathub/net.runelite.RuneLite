@@ -6,7 +6,7 @@
     "command": "runelite",
     "separate-locales": false,
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.openjdk11" 
+        "org.freedesktop.Sdk.Extension.openjdk11"
     ],
     "finish-args": [
         "--share=ipc",
@@ -64,7 +64,7 @@
                     "dest-filename": "runelite",
                     "commands": [
                         "for file in $XDG_RUNTIME_DIR/app/com.discordapp.Discord/discord-ipc-*; do ln -sf $file $XDG_RUNTIME_DIR/$(basename $file); done",
-                        "exec $JAVA_HOME/bin/java -jar /app/share/RuneLite.jar"
+                        "exec $JAVA_HOME/bin/java -jar /app/share/RuneLite.jar \"$@\""
                     ]
                 },
                 {
