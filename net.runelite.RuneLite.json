@@ -1,12 +1,12 @@
 {
     "id": "net.runelite.RuneLite",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "20.08",
+    "runtime-version": "21.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "runelite",
     "separate-locales": false,
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.openjdk11"
+        "org.freedesktop.Sdk.Extension.openjdk"
     ],
     "finish-args": [
         "--share=ipc",
@@ -25,7 +25,7 @@
             "name": "openjdk",
             "buildsystem": "simple",
             "build-commands": [
-                "/usr/lib/sdk/openjdk11/install.sh"
+                "/usr/lib/sdk/openjdk/install.sh"
             ]
         },
         {
