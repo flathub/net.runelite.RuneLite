@@ -1,7 +1,7 @@
 {
     "id": "net.runelite.RuneLite",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "20.08",
+    "runtime-version": "21.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "runelite",
     "separate-locales": false,
@@ -69,8 +69,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://github.com/runelite/launcher/releases/download/2.4.0/RuneLite.jar",
-                    "sha256": "0371df868e2d803aa84a170cb685d9db04bd9a1bda80110f0f12ad0570328348"
+                    "url": "https://github.com/runelite/launcher/releases/download/2.5.0/RuneLite.jar",
+                    "sha256": "8383932134644c81ae41d4363052ce779fd5acce36455daf7477e57d72f9be81"
                 },
                 {
                     "type": "file",
