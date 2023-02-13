@@ -1,7 +1,7 @@
 {
     "id": "net.runelite.RuneLite",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "20.08",
+    "runtime-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "runelite",
     "separate-locales": false,
@@ -17,8 +17,7 @@
         "--env=JAVA_HOME=/app/jre",
         "--talk-name=org.freedesktop.Notifications",
         "--filesystem=xdg-run/app/com.discordapp.Discord:create",
-        "--persist=.runelite",
-        "--persist=jagexcache"
+        "--persist=.runelite"
     ],
     "modules": [
         {
@@ -35,8 +34,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/GNOME/libnotify/-/archive/0.7.9/libnotify-0.7.9.tar.gz",
-                    "sha256": "9bd4f5fa911d27567e7cc2d2d09d69356c16703c4e8d22c0b49a5c45651f3af0"
+                    "url": "https://gitlab.gnome.org/GNOME/libnotify/-/archive/0.8.1/libnotify-0.8.1.tar.gz",
+                    "sha256": "7c0b252edecbf08db50d775f9e720ecc03c742fb97c25f3966a8b7a4bedf8133"
                 }
             ],
             "cleanup": [
@@ -69,8 +68,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://github.com/runelite/launcher/releases/download/2.2.0/RuneLite.jar",
-                    "sha256": "e14e9d0f265b17d711370f0d4749adb6401a39a269a9531349edfd431a8f138f"
+                    "url": "https://github.com/runelite/launcher/releases/download/2.5.0/RuneLite.jar",
+                    "sha256": "8383932134644c81ae41d4363052ce779fd5acce36455daf7477e57d72f9be81"
                 },
                 {
                     "type": "file",
