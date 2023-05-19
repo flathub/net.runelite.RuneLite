@@ -34,8 +34,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/GNOME/libnotify/-/archive/0.8.1/libnotify-0.8.1.tar.gz",
-                    "sha256": "7c0b252edecbf08db50d775f9e720ecc03c742fb97c25f3966a8b7a4bedf8133"
+                    "url": "https://gitlab.gnome.org/GNOME/libnotify/-/archive/0.8.2/libnotify-0.8.2.tar.gz",
+                    "sha256": "84d6bbcd633ff10eed25226730c52220cd41e362bb183513e5b6a5d1b3c0c12f"
                 }
             ],
             "cleanup": [
@@ -68,8 +68,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://github.com/runelite/launcher/releases/download/2.5.0/RuneLite.jar",
-                    "sha256": "8383932134644c81ae41d4363052ce779fd5acce36455daf7477e57d72f9be81"
+                    "url": "https://github.com/runelite/launcher/releases/download/2.6.4/RuneLite.jar",
+                    "sha256": "ec497614d03a223a860c247c64615ed3c0d8287025c9cab4ba97063bccb03d60"
                 },
                 {
                     "type": "file",
