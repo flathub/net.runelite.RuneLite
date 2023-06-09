@@ -15,8 +15,11 @@
         "--device=dri",
         "--socket=pulseaudio",
         "--env=JAVA_HOME=/app/jre",
+         "--env=GIO_EXTRA_MODULES=/app/lib/gio/modules",
         "--talk-name=org.freedesktop.Notifications",
+        "--talk-name=org.gtk.vfs.*",
         "--filesystem=xdg-run/app/com.discordapp.Discord:create",
+        "--filesystem=xdg-run/gvfsd",
         "--persist=.runelite"
     ],
     "modules": [
@@ -25,6 +28,50 @@
             "buildsystem": "simple",
             "build-commands": [
                 "/usr/lib/sdk/openjdk11/install.sh"
+            ]
+        },
+        {
+            "name": "gvfs",
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Dsystemduserunitdir=no",
+                "-Dtmpfilesdir=no",
+                "-Dinstalled_tests=true",
+                "-Dadmin=false",
+                "-Dafc=false",
+                "-Dafp=false",
+                "-Darchive=false",
+                "-Dcdda=false",
+                "-Ddnssd=false",
+                "-Dgoa=false",
+                "-Dgoogle=false",
+                "-Dgphoto2=false",
+                "-Dhttp=true",
+                "-Dmtp=false",
+                "-Dnfs=false",
+                "-Dsftp=false",
+                "-Dsmb=false",
+                "-Dudisks2=false",
+                "-Dbluray=false",
+                "-Dfuse=false",
+                "-Dgcr=false",
+                "-Dgcrypt=false",
+                "-Dgudev=false",
+                "-Dkeyring=false",
+                "-Dlogind=false",
+                "-Dlibusb=false"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/gvfs/1.50/gvfs-1.50.4.tar.xz",
+                    "sha256": "ab9059a676a537edbea21388c2aafe1a7e2c8f1ac2dfdc6d64550233075457fd",
+                    "x-checker-data": {
+                        "type": "gnome",
+                        "name": "gvfs",
+                        "stable-only": true
+                    }
+                }
             ]
         },
         {
