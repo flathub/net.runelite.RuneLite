@@ -15,9 +15,6 @@
 
     <screenshots>
         <screenshot type="default">https://raw.githubusercontent.com/flathub/net.runelite.RuneLite/master/screenshot.png</screenshot>
-        <screenshot>https://runelite.net/img/carousel/1.png</screenshot>
-        <screenshot>https://runelite.net/img/carousel/2.png</screenshot>
-        <screenshot>https://runelite.net/img/carousel/3.png</screenshot>
     </screenshots>
 
     <releases>
