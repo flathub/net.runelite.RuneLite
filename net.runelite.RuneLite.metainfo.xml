@@ -1,27 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2019 Steven vanZyl -->
 <component type="desktop">
-    <id>net.runelite.RuneLite.desktop</id>
+    <id>net.runelite.RuneLite</id>
     <name>RuneLite</name>
-    <developer_name>RuneLite</developer_name>
+    <developer id="net.runelite">
+        <name>RuneLite</name>
+    </developer>
     <summary>RuneLite OSRS Client</summary>
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>BSD-2-Clause</project_license>
     <url type="homepage">https://runelite.net</url>
+    <launchable type="desktop-id">net.runelite.RuneLite.desktop</launchable>
 
     <description>
         <p>RuneLite is a free, open-source and super fast client for Old School RuneScape.</p>
     </description>
 
     <screenshots>
-        <screenshot type="default">https://raw.githubusercontent.com/flathub/net.runelite.RuneLite/master/screenshot.png</screenshot>
-        <screenshot>https://raw.githubusercontent.com/flathub/net.runelite.RuneLite/master/1.png</screenshot>
-        <screenshot>https://raw.githubusercontent.com/flathub/net.runelite.RuneLite/master/2.png</screenshot>
-        <screenshot>https://raw.githubusercontent.com/flathub/net.runelite.RuneLite/master/3.png</screenshot>
+        <screenshot type="default">
+            <image>https://raw.githubusercontent.com/flathub/net.runelite.RuneLite/master/screenshot.png</image>
+            <caption>Login screen</caption>
+        </screenshot>
+        <screenshot>
+            <image>https://raw.githubusercontent.com/flathub/net.runelite.RuneLite/master/1.png</image>
+            <caption>Gameplay example of a player in the Chambers of Xeric raid</caption>
+        </screenshot>
+        <screenshot>
+            <image>https://raw.githubusercontent.com/flathub/net.runelite.RuneLite/master/2.png</image>
+            <caption>Gameplay example of a player fighting with a lesser demon</caption>
+        </screenshot>
+        <screenshot>
+            <image>https://raw.githubusercontent.com/flathub/net.runelite.RuneLite/master/3.png</image>
+            <caption>Gameplay example looking over Mount Karuulm in Zeah</caption>
+        </screenshot>
     </screenshots>
 
     <releases>
-        <release version="2.6.10" date="2023-11-19"></release>
+        <release version="2.7.1" date="2024-03-17"></release>
     </releases>
     <update_contact>adam_at_runelite.net</update_contact>
 
