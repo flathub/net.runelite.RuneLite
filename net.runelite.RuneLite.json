@@ -62,7 +62,7 @@
                     "type": "script",
                     "dest-filename": "runelite",
                     "commands": [
-                        "for file in $XDG_RUNTIME_DIR/app/com.discordapp.Discord/discord-ipc-*; do ln -sf $file $XDG_RUNTIME_DIR/$(basename $file); done",
+                        "ln -sf $XDG_RUNTIME_DIR/app/com.discordapp.Discord/discord-ipc-0 $XDG_RUNTIME_DIR/discord-ipc-0",
                         "exec $JAVA_HOME/bin/java -jar /app/share/RuneLite.jar \"$@\""
                     ]
                 },
