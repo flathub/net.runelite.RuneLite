@@ -10,12 +10,18 @@
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>BSD-2-Clause</project_license>
     <url type="homepage">https://runelite.net</url>
+    <url type="vcs-browser">https://github.com/runelite/runelite</url>
+    <url type="bugtracker">https://github.com/runelite/runelite/issues</url>
     <launchable type="desktop-id">net.runelite.RuneLite.desktop</launchable>
 
     <description>
         <p>RuneLite is a free, open-source and super fast client for Old School RuneScape.</p>
     </description>
 
+    <categories>
+        <category>Game</category>
+        <category>RolePlaying</category>
+    </categories>
     <screenshots>
         <screenshot type="default">
             <image>https://raw.githubusercontent.com/flathub/net.runelite.RuneLite/master/screenshot.png</image>
