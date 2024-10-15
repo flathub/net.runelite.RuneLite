@@ -11,6 +11,7 @@
     <project_license>BSD-2-Clause</project_license>
     <url type="homepage">https://runelite.net</url>
     <url type="vcs-browser">https://github.com/runelite/runelite</url>
+    <url type="bugtracker">https://github.com/runelite/runelite/issues</url>
     <launchable type="desktop-id">net.runelite.RuneLite.desktop</launchable>
 
     <description>
@@ -21,7 +22,6 @@
         <category>Game</category>
         <category>RolePlaying</category>
     </categories>
-    
     <screenshots>
         <screenshot type="default">
             <image>https://raw.githubusercontent.com/flathub/net.runelite.RuneLite/master/screenshot.png</image>
