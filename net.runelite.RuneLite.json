@@ -28,26 +28,6 @@
             ]
         },
         {
-            "name": "libnotify",
-            "buildsystem": "meson",
-            "config-opts": ["-Dman=false", "-Dgtk_doc=false", "-Ddocbook_docs=disabled"],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://gitlab.gnome.org/GNOME/libnotify/-/archive/0.8.2/libnotify-0.8.2.tar.gz",
-                    "sha256": "84d6bbcd633ff10eed25226730c52220cd41e362bb183513e5b6a5d1b3c0c12f"
-                }
-            ],
-            "cleanup": [
-                "/include",
-                "/lib/pkgconfig",
-                "/lib/debug",
-                "/lib/girepository-1.0",
-                "/share/gtk-doc",
-                "/share/gir-1.0"
-            ]
-        },
-        {
             "name": "runelite",
             "buildsystem": "simple",
             "build-commands": [
